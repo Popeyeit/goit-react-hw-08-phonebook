@@ -1,0 +1,28 @@
+.nav-list {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #fff;
+  font-size: 24px;
+  text-transform: uppercase;
+}
+
+.nav-item:not(:last-child) {
+  margin-right: 60px;
+}
+
+.header {
+  padding: 40px 0 80px 0;
+  background-color: black;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.nav-link-active {
+  color: yellow;
+}

@@ -1,0 +1,40 @@
+.user-wrapper {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.user-email {
+  color: white;
+  margin-right: 30px;
+}
+
+.user-btn {
+  width: 80px;
+  padding: 20px 0;
+  color: #fff;
+  background-color: transparent;
+  cursor: pointer;
+  border: none;
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: 800;
+  /* border-bottom: 1px solid yellow; */
+  position: relative;
+}
+
+.user-btn:hover {
+  color: yellow;
+}
+
+.user-btn::after {
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  position: absolute;
+  content: '';
+  width: 80px;
+  height: 2px;
+  background-color: yellow;
+
+}
